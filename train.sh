@@ -1,0 +1,12 @@
+python3 main.py \
+    --use_gpu=1 \
+    --gpu_idx=0 \
+    --gpu_mem=0.5 \
+    --phase=train \
+    --epoch=100 \
+    --batch_size=16 \
+    --patch_size=48 \
+    --start_lr=0.001 \
+    --eval_every_epoch=20 \
+    --checkpoint_dir=./checkpoint \
+    --sample_dir=./sample
